@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+  
+}
+body{
+    background: gray;
+    padding: 50px;
+}
+.parent{
+    border: 2px solid black;
+    width: 500px;
+    height: 500px;
+    background: ivory;
+}
+.child-one{
+    background-color: gold;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.child-two{
+    background-color: indianred;
+    width: 100px;
+    height: 100px;
+}
+
